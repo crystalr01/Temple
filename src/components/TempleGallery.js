@@ -461,9 +461,12 @@ const TempleGallery = () => {
           <ContactSection sx={{ marginTop: '32px' }}>
             <ContactInfo>
               <Typography variant="h6" sx={{ fontSize: '1.2rem', fontWeight: 'bold' }}>
-                शिल्पकार शिंदे बंधु
+                सर्वज्ञ शिल्पकार कला संच
               </Typography>
-              <Typography>📞 9764208020</Typography>
+              <Typography variant="h6" sx={{ fontSize: '1.2rem', fontWeight: 'bold' }}>
+                शिंदे बंधु
+              </Typography>
+              <Typography>📞 9764208020, 8806207996</Typography>
             </ContactInfo>
           </ContactSection>
 
