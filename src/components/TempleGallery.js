@@ -370,8 +370,10 @@ const TempleGallery = () => {
     const unsubscribe = onValue(imagesRef, (snapshot) => {
       try {
         const data = snapshot.val();
-        if (data && data.images) {
-          setImages(data.images);
+        if (data) {
+          // Convert the object to an array of images
+          const imagesArray = Object.values(data);
+          setImages(imagesArray);
         } else {
           setImages([]);
         }
